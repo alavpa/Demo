@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="posts">Posts</string>
+    <string name="comments">Comments</string>
+    <string name="comments_number">Comments (%1$d)</string>
+    <string name="detail_message_error">Cannot show this post at this momment. Please try later.</string>
+</resources>

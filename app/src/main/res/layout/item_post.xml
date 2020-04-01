@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_post_24dp"
+        android:drawableLeft="@drawable/ic_post_24dp"
+        android:drawablePadding="@dimen/margin"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/header1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Hello World!" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
